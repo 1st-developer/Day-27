@@ -33,3 +33,13 @@ page.from('.btn', {
     x: -50,
 })
 
+gsap.registerPlugin(ScrollTrigger);
+
+gsap.utils.toArray(".three-pages").forEach((page, i) => {
+    ScrollTrigger.create({
+        trigger: page,
+        start: "top top",
+        pin: true,
+        pinSpacing: false
+    });
+});

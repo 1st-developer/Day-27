@@ -190,3 +190,71 @@ header .logo {
     background-position: center;
     background-size: cover;
 }
+
+.three-pages {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.one {
+    background: #f4f4f4;
+    margin-top: 50px;
+}
+
+.one h2, .one p {
+    color: #000;
+}
+
+.two {
+    background: #00617a;
+}
+.two h2, .two p {
+    color: #fff;
+}
+
+.three {
+    background: #333;
+}
+
+.three h2, .three p {
+    color: #fff;
+}
+
+.left, .right {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left .image-one {
+    width: 90%;
+    height: 50%;
+}
+
+.image-one img {
+    width: 100%;
+    height: 100%;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.side {
+    display: flex;
+    justify-content: center;
+}
+
+.right .details h2{
+    font-size: 5rem;
+}
+
+.right .details p {
+    font-size: 1rem;
+}
